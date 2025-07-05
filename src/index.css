@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Light mode colors */
+    --color-primary: 14 165 233; /* sky-500 */
+    --color-primary-dark: 2 132 199; /* sky-600 */
+    --color-secondary: 99 102 241; /* indigo-500 */
+    --color-accent: 34 197 94; /* emerald-500 */
+    --color-accent-dark: 22 163 74; /* emerald-600 */
+    --color-warning: 245 158 11; /* amber-500 */
+    --color-danger: 239 68 68; /* red-500 */
+    --color-success: 34 197 94; /* emerald-500 */
+    
+    /* Background colors */
+    --color-bg-primary: 15 23 42; /* slate-900 */
+    --color-bg-secondary: 30 41 59; /* slate-800 */
+    --color-bg-tertiary: 51 65 85; /* slate-700 */
+    --color-bg-card: 30 41 59; /* slate-800 */
+    --color-bg-elevated: 51 65 85; /* slate-700 */
+    
+    /* Text colors */
+    --color-text-primary: 248 250 252; /* slate-50 */
+    --color-text-secondary: 203 213 225; /* slate-300 */
+    --color-text-muted: 148 163 184; /* slate-400 */
+    
+    /* Border colors */
+    --color-border: 71 85 105; /* slate-600 */
+    --color-border-light: 100 116 139; /* slate-500 */
+  }
+  
+  body {
+    @apply bg-slate-900 text-slate-50 font-sans antialiased;
+    background: linear-gradient(135deg, rgb(15 23 42) 0%, rgb(30 41 59) 100%);
+    min-height: 100vh;
+  }
+  
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-slate-800;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-slate-600 rounded-full;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-slate-500;
+  }
+}
+
+@layer components {
+  .financial-card {
+    @apply bg-slate-800 border border-slate-700 rounded-xl shadow-xl backdrop-blur-sm;
+    background: linear-gradient(145deg, rgb(30 41 59 / 0.8), rgb(51 65 85 / 0.6));
+  }
+  
+  .financial-card-elevated {
+    @apply bg-slate-700 border border-slate-600 rounded-xl shadow-2xl;
+    background: linear-gradient(145deg, rgb(51 65 85 / 0.9), rgb(71 85 105 / 0.7));
+  }
+  
+  .financial-gradient-primary {
+    background: linear-gradient(135deg, rgb(14 165 233) 0%, rgb(99 102 241) 100%);
+  }
+  
+  .financial-gradient-success {
+    background: linear-gradient(135deg, rgb(34 197 94) 0%, rgb(16 185 129) 100%);
+  }
+  
+  .financial-gradient-danger {
+    background: linear-gradient(135deg, rgb(239 68 68) 0%, rgb(220 38 38) 100%);
+  }
+  
+  .financial-gradient-warning {
+    background: linear-gradient(135deg, rgb(245 158 11) 0%, rgb(217 119 6) 100%);
+  }
+  
+  .financial-input {
+    @apply bg-slate-800 border border-slate-600 text-slate-100 placeholder-slate-400 rounded-lg px-4 py-3 focus:ring-2 focus:ring-sky-500 focus:border-transparent transition-all duration-200;
+  }
+  
+  .financial-button-primary {
+    @apply px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 transform hover:scale-105 shadow-lg;
+    background: linear-gradient(135deg, rgb(14 165 233) 0%, rgb(99 102 241) 100%);
+  }
+  
+  .financial-button-primary:hover {
+    background: linear-gradient(135deg, rgb(2 132 199) 0%, rgb(79 70 229) 100%);
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.3), 0 10px 10px -5px rgb(0 0 0 / 0.2);
+  }
+  
+  .financial-button-success {
+    @apply px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 transform hover:scale-105 shadow-lg;
+    background: linear-gradient(135deg, rgb(34 197 94) 0%, rgb(16 185 129) 100%);
+  }
+  
+  .financial-button-success:hover {
+    background: linear-gradient(135deg, rgb(22 163 74) 0%, rgb(5 150 105) 100%);
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.3), 0 10px 10px -5px rgb(0 0 0 / 0.2);
+  }
+  
+  .financial-stats-card {
+    @apply financial-card p-6 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1;
+  }
+  
+  .financial-glow {
+    box-shadow: 0 0 20px rgb(14 165 233 / 0.3);
+  }
+  
+  .financial-glow-success {
+    box-shadow: 0 0 20px rgb(34 197 94 / 0.3);
+  }
+  
+  .financial-glow-danger {
+    box-shadow: 0 0 20px rgb(239 68 68 / 0.3);
+  }
+}
