@@ -12,10 +12,6 @@ FinanceTracker adalah aplikasi web modern yang dirancang untuk menyederhanakan m
 
 Proyek ini mendemonstrasikan integrasi antara *frontend* modern dengan *multimodal AI* canggih untuk menciptakan solusi praktis bagi masalah sehari-hari.
 
-**Tonton Demo Aplikasi di Bawah Ini!**
-*(SANGAT DISARANKAN untuk pasang GIF demo aplikasi lo di sini!)*
-`![Demo GIF](link_ke_gif_lo.gif)`
-
 ---
 
 ## 🚀 Key Features
@@ -49,8 +45,8 @@ Pastikan Anda sudah meng-install Node.js (v18.0.0 atau lebih tinggi).
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/rizanss/automated-expense-tracker.git](https://github.com/rizanss/automated-expense-tracker.git)
-    cd automated-expense-tracker
+    git clone [https://github.com/rizanss/Automated-Expense-Tracker.git](https://github.com/rizanss/Automated-Expense-Tracker.git)
+    cd Automated-Expense-Tracker
     ```
 
 2.  **Install dependencies:**
