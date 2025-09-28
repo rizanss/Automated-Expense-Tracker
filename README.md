@@ -6,6 +6,10 @@
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-3-blue?logo=tailwindcss)
 ![Gemini AI](https://img.shields.io/badge/AI-Google_Gemini-green?logo=google)
 
+*Tonton Demo Aplikasi di Bawah Ini!*
+
+![Demo Aplikasi](./assets/automated_expense_tracker_demo.mkv)
+
 ## ✨ Project Overview
 
 FinanceTracker adalah aplikasi web modern yang dirancang untuk menyederhanakan manajemen keuangan pribadi. Mengatasi masalah utama pencatatan manual yang membosankan dan rawan kesalahan, aplikasi ini mengimplementasikan fitur pemindai struk/invoice berbasis AI, memungkinkan pengguna untuk mendigitalkan pengeluaran mereka hanya dengan satu foto.
