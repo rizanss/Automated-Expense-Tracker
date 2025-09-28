@@ -8,7 +8,7 @@
 
 *Tonton Demo Aplikasi di Bawah Ini!*
 
-![Demo Aplikasi](./assets/automated_expense_tracker_demo.mkv)
+![Demo Aplikasi](./assets/automated_expense_tracker_demo.gif)
 
 ## ✨ Project Overview
 
